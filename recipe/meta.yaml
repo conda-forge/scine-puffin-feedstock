@@ -1,5 +1,5 @@
 {% set name = "scine-puffin" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/qcscine/puffin/archive/refs/tags/{{ version }}.tar.gz
-    sha256: 09edd5162394e7ac25f9c52f0e8ada5784cf7611dc4ac2831b5e4f211764b531
+    sha256: 2af58a2acc31d87f0ee75d1aa5b9f9c590bb47715f0432dee8b3756725d323b3
 
 build:
   number: 0
