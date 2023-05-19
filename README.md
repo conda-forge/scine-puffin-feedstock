@@ -1,17 +1,17 @@
-About scine-puffin
-==================
+About scine-puffin-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scine-puffin-feedstock/blob/main/LICENSE.txt)
 
 Home: https://scine.ethz.ch/download/puffin
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scine-puffin-feedstock/blob/main/LICENSE.txt)
-
 Summary: Calculation handler for SCINE Chemoton
 
 Development: https://github.com/qcscine/puffin
 
-Documentation: https://scine.ethz.ch/static/download/documentation/puffin/v1.1.0/py/
+Documentation: https://scine.ethz.ch/static/download/documentation/puffin/v1.2.0/py/
 
 Current build status
 ====================
