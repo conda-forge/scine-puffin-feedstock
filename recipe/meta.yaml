@@ -10,7 +10,7 @@ source:
     sha256: 2af58a2acc31d87f0ee75d1aa5b9f9c590bb47715f0432dee8b3756725d323b3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -v --no-deps
   entry_points:
@@ -25,13 +25,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - git
     - gitpython
     - numpy
     - psutil
-    - python >=3.6
+    - python >={{ python_min }}
     - python-daemon
     - pyyaml
     # Scine modules not listed in requirements.txt, because they get compiled
@@ -49,6 +49,7 @@ test:
   requires:
     - pip
     - pytest
+    - python {{ python_min }}
   commands:
     - pip check
     - scine_puffin -h
